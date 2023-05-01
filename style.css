@@ -1,0 +1,230 @@
+/* 미디어쿼리 
+@media (max-width: 1000px) {
+    .container {
+      max-width: 900px;
+    }
+    .container .inner {
+      width: calc(100% / 3);
+    }
+  }
+
+@media (max-width: 900px) {
+.container {
+    max-width: 600px;
+}
+.container .inner {
+    width: calc(100% / 2);
+}
+}
+
+@media (max-width: 767px) {
+.container {
+    max-width: 300px;
+}
+.container .inner {
+    width: 100%;
+}
+*/
+
+/* 글꼴 */
+h1 {
+    margin: 0;
+    color: #323438;
+    }
+
+h2 {
+margin: 0;
+color: #323438;
+}
+
+h3 {
+    margin: 0;
+    color: #323438;
+    }
+
+p {
+    color: #323438;
+    line-height: 1.7rem;
+}
+
+body {
+    font-family: 'SUIT Variable', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0px;
+    background-color: #F9F9FB; 
+}
+
+a {
+    text-decoration-line: none;
+    color: #323438;
+  /*   text-decoration-line: underline; */
+  /*   text-decoration-line: overline; */
+  /*   text-decoration-line: line-through; */
+  /*   text-decoration-line: underline line-through overline; */
+  }
+
+
+/* 컨테이너 */
+.container {
+display: flex;
+flex-wrap: wrap;
+max-width: 720px;
+width: 100%;
+margin: auto;
+}
+
+.container .inner {
+padding: 20px;
+width: calc(100% / 4);
+box-sizing: border-box;
+}
+
+.contentsbox {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents {
+    grid-gap: 20px;
+    list-style: none;
+    width: 720px;
+    display : flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.guide {
+    grid-gap: 20px;
+    list-style: none;
+    width: 720px;
+    height: auto;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+/* 카드 */
+.card-item {
+width: calc(700px / 2);
+min-width: 200px;
+background-color: #fff;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card-item lottie-player {
+width: 100%;
+object-fit: cover;
+vertical-align: top;
+}
+
+.card-text {
+padding: 12px 20px 24px;
+}
+
+.card-text .title {
+font-size: 16px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+margin-bottom: 12px;
+color: #323438;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid #F3F3F4;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.add {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 4px;
+    background: #E5E6E9;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+/* 네비게이션 */
+nav {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width:  100%;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.navGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 720px;
+    height: 22px;
+}
+
+.menuGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    height: 20px;
+    justify-content: flex-end;
+    list-style:none;
+}
+
+input {
+    display: none;
+}
+
+/* 푸터 - 사용안함 */
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
+
+
+
+/* 나중에~~~
+@media screen and (min-width : 769px) and (max-width : 1059px) {
+    #footer {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(56, 228, 94);
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #footer {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 119, 0);
+    }
+}
+*/
