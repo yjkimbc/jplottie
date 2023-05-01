@@ -28,195 +28,20 @@
     </header>
         <main class="contentsbox"> 
             <div class="contents"> 
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11033/lottie_loading.json" background="transparent" speed="1" style="width: 100%; height: 250px;" hover loop></lottie-player>
-                    <div class="card-text">
-                      <h2 class="title">
-                        lottie_loading.json
-                      </h2>
-                      <input class="myInput" value="" readonly>
-                      <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                    </div>
-                  </article>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11034/lottie_spinner.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
+                <template id="card-template">
+                    <article class="card-item">
+                        <lottie-player src="" background="transparent" speed="1" style="width: 100%; height: 250px;" hover loop></lottie-player>
                         <div class="card-text">
-                            <h2 class="title">
-                                lottie_spinner.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
+                            <h2 class="title"></h2>
+                            <input class="myInput" value="" readonly>
                             <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
                         </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11026/lottie_spinner_finish.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_spinner_finish.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                         </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11028/lottie_navi_alarm.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_navi_alarm.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11029/lottie_navi_compare.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_navi_compare.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11030/lottie_navi_hire.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_navi_hire.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11031/lottie_navi_my.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_navi_my.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11032/lottie_navi_news.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_navi_news.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11027/lottie_planet_loading.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_planet_loading.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11019/lottie_magic.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_magic.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/10949/lottie_partypopper.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_partypopper.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11017/lottie_appsplash.json"  background="#E5E6E9"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_appsplash.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11018/lottie_easypass_loading.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_easypass_loading.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11020/lottie_match_simple.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_match_simple.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11021/lottie_match.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_match.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11022/lottie_mo_skeleton.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_mo_skeleton.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11023/lottie_salary.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_salary.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
-                <article class="card-item">
-                    <lottie-player src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/11025/lottie_salary_lock.json"  background="transparent"  speed="1"  style="width: 100%; height: 250px;" hover loop  ></lottie-player>                   
-                        <div class="card-text">
-                            <h2 class="title">
-                                lottie_salary_lock.json
-                            </h2>
-                            <input id="myInput" value="" readonly >
-                            <span class="add" onclick="copy_to_clipboard(this)">주소 복사</span>
-                        </div>
-                </article>
+                    </article>
+                </template>
            </div>    
         </main>
-    <!-- 푸터
-    <footer id = "footer">
-    Copyright © JOBPLANET DESIGN. All rights reserved.
-    </footer> 
-    -->
 </div>
+
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <!--로띠js-->
 <script src="javascript.js"></script> <!--그외-->
 </body>

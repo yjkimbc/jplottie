@@ -77,27 +77,17 @@ margin: auto;
     padding-bottom: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .contents {
     grid-gap: 20px;
-    list-style: none;
     width: 720px;
     display : flex;
     flex-wrap: wrap;
-    height: auto;
-    justify-content: flex-start;
-    align-items: start;
 }
 
 .guide {
-    grid-gap: 20px;
-    list-style: none;
     width: 720px;
-    height: auto;
-    justify-content: flex-start;
-    align-items: start;
 }
 
 /* 카드 */
@@ -111,13 +101,11 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .card-item lottie-player {
-width: 100%;
-object-fit: cover;
-vertical-align: top;
+    background-color: #f1f2f5;
 }
 
 .card-text {
-padding: 12px 20px 24px;
+padding: 20px 20px 24px;
 }
 
 .card-text .title {
@@ -140,10 +128,7 @@ color: #323438;
 }
 
 .add {
-    flex-direction: row;
-    align-items: flex-start;
     padding: 4px 8px;
-    gap: 4px;
     background: #E5E6E9;
     border-radius: 2px;
     font-style: normal;
