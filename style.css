@@ -35,10 +35,12 @@ nav {
     height: 20px;
     justify-content: flex-end;
     list-style:none;
+    margin-top: 8px;
 }
 
 .guide {
     width: 90%;
+    padding-top: 24px;
 }
 
 .contents {
@@ -132,7 +134,7 @@ color: #323438;
 .toast-ui {
     font-family: 'SUIT Variable', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 16px;
-    padding: 8px 20px;
+    padding: 10px 20px 8px 20px;
     width: auto;
     height: 24px;
     color: #fff;
@@ -270,7 +272,7 @@ color: #323438;
     .toast-ui {
         font-family: 'SUIT Variable', -apple-system, BlinkMacSystemFont, sans-serif;
         font-size: 16px;
-        padding: 8px 20px;
+        padding: 10px 20px 8px 20px;
         width: auto;
         height: 24px;
         color: #fff;
@@ -398,4 +400,9 @@ color: #323438;
 
 input {
     display: none;
+}
+
+li {
+    color: #323438;
+    line-height: 1.7rem;
 }
