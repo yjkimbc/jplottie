@@ -262,13 +262,14 @@ color: #323438;
         cursor: pointer;
     }
 
-    .filter-button:active {
+    .filter-button.active {
         padding: 8px 12px;
         gap: 4px;
         width: auto;
         height: 36px;
+        color:#323438;
         background: #fff;
-        border: 1px solid #c2c5cc;
+        border: 1px solid #323438;
         border-radius: 2px;
         cursor: pointer;
     }
