@@ -98,13 +98,14 @@ color: #323438;
 .button-box {
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 12px;
+    grid-gap: 8px;
     justify-content: flex-start;
     width: 90%;
     padding-bottom: 36px;
 }
 
 .filter-button {
+    color: #323438;
     padding: 8px 12px;
     gap: 4px;
     width: auto;
@@ -116,6 +117,7 @@ color: #323438;
 }
 
 .filter-button:active {
+    color: #323438;
     padding: 8px 12px;
     gap: 4px;
     width: auto;
