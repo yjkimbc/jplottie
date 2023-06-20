@@ -7,6 +7,11 @@ const contents = document.querySelector(".contents");
 const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
+              {
+                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11230/lottie_navi_activity.json",
+                title: "lottie_navi_activity.json",
+                type: ["전체", "아이콘"]
+            },
              {
                 src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11033/lottie_loading.json",
                 title: "lottie_loading.json",
@@ -156,41 +161,6 @@ function showData(filter) {
     }
   });
 }
-
-/*        
-// 초기 데이터 노출
-showData("all");
-
-// 버튼 클릭 시 해당 타입의 데이터만 노출
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const filter = button.dataset.filter;
-    showData(filter);
-  });
-});
-        
-// 데이터를 필터링하여 보여주는 함수
-function showData(filter) {
-  contents.innerHTML = "";
-  data.forEach((item) => {
-    if (item.type.includes(filter) || filter === "all") {
-      const card = template.content.cloneNode(true);
-      card.querySelector("lottie-player").setAttribute("src", item.src);
-      card.querySelector(".title").textContent = item.title;
-
-      const input = card.querySelector(".myInput");
-      input.value = item.src;
-
-      const add = card.querySelector(".add");
-      add.addEventListener("click", () => {
-        copy_to_clipboard(add);
-      });
-
-      contents.appendChild(card);
-    }
-  });
-}
-*/
 
 // copy_to_clipboard 함수
 function copy_to_clipboard(button) {
