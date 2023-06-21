@@ -8,6 +8,11 @@ const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
               {
+                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11231/lottie_heart.json",
+                title: "lottie_heart.json",
+                type: ["전체", "이벤트"]
+            },
+              {
                 src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11230/lottie_navi_activity.json",
                 title: "lottie_navi_activity.json",
                 type: ["전체", "아이콘"]
