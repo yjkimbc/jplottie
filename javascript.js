@@ -8,7 +8,7 @@ const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
               {
-                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11231/lottie_heart.json",
+                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11234/lottie_heart.json",
                 title: "lottie_heart.json",
                 type: ["전체", "이벤트"]
             },
