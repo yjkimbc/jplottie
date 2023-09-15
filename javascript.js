@@ -8,7 +8,7 @@ const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
               {
-                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11506/lottie_like_modal.json",
+                src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11515/lottie_like_modal.json",
                 title: "lottie_like_modal.json",
                 type: ["전체", "이벤트"]
             },
