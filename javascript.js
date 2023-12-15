@@ -11,7 +11,7 @@ const buttons = document.querySelectorAll(".filter-button");
             },
             {
               src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11768/lottie_xmas_ios.json",
-              title: "ottie_xmas_ios.json",
+              title: "lottie_xmas_ios.json",
               type: ["전체", "이벤트"]
           },
             {
