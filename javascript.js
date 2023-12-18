@@ -8,6 +8,16 @@ const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
   {
+    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11769/lottie_2024_aos.json",
+    title: "lottie_2024_aos.json",
+    type: ["전체", "이벤트"]
+},
+{
+  src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11770/lottie_2024_ios.json",
+  title: "lottie_2024_ios.json",
+  type: ["전체", "이벤트"]
+},
+  {
     src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11767/lottie_xmas_aos.json",
     title: "lottie_xmas_aos.json",
     type: ["전체", "이벤트"]
