@@ -8,7 +8,17 @@ const buttons = document.querySelectorAll(".filter-button");
 
 const data = [
   {
-    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11769/lottie_2024_aos.json",
+    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11836/lottie_rookie3dot.json",
+    title: "lottie_rookie3dot.json",
+    type: ["전체", "로딩"]
+},
+{
+  src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11837/lottie_rookiespinner.json",
+  title: "lottie_rookiespinner.json",
+  type: ["전체", "로딩"]
+},
+  {
+    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11771/lottie_2024_aos.json",
     title: "lottie_2024_aos.json",
     type: ["전체", "이벤트"]
 },
@@ -18,7 +28,7 @@ const data = [
   type: ["전체", "이벤트"]
 },
   {
-    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11767/lottie_xmas_aos.json",
+    src: "https://jpassets.jobplanet.co.kr/production/uploads/material/media/11772/lottie_xmas_aos.json",
     title: "lottie_xmas_aos.json",
     type: ["전체", "이벤트"]
 },
